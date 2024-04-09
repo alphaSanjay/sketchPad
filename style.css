@@ -1,0 +1,21 @@
+.gridRow{
+    display: flex;
+}
+.cell{
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border: 1px solid red;  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cell:hover{
+    background-color: blueviolet;
+}
